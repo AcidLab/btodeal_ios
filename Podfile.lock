@@ -1,0 +1,150 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AppBottomActionSheet (1.1)
+  - BEMCheckBox (1.4.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CSStickyHeaderFlowLayout (0.2.11)
+  - DZNEmptyDataSet (1.8.1)
+  - EasyTransition (2.1)
+  - EMAlertController (1.0.1)
+  - FBSDKCoreKit (4.36.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.36.0):
+    - FBSDKCoreKit
+  - FLAnimatedImage (1.0.12)
+  - IQKeyboardManagerSwift (6.1.1)
+  - JDStatusBarNotification (1.6.0)
+  - JSONModel (1.8.0)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - NVPullToRefresh (0.1.0):
+    - NVActivityIndicatorView (~> 4.1.1)
+    - PullToRefresher (~> 3.0.2)
+  - OneSignal (2.8.9)
+  - Parchment (1.4.1)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - PullToRefresher (3.0.2)
+  - PullUpController (0.4.1)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SwiftValidator (4.0.0)
+  - "UITextView+Placeholder (1.2.1)"
+
+DEPENDENCIES:
+  - AFNetworking (= 2.5.4)
+  - AppBottomActionSheet
+  - BEMCheckBox
+  - Bolts
+  - CSStickyHeaderFlowLayout
+  - DZNEmptyDataSet
+  - EasyTransition (~> 2.1)
+  - EMAlertController
+  - FBSDKLoginKit
+  - FLAnimatedImage (~> 1.0)
+  - IQKeyboardManagerSwift
+  - JDStatusBarNotification
+  - JSONModel
+  - NVPullToRefresh
+  - OneSignal
+  - Parchment
+  - Parse
+  - PullUpController
+  - SDWebImage (~> 4.0)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AppBottomActionSheet
+    - BEMCheckBox
+    - Bolts
+    - CSStickyHeaderFlowLayout
+    - DZNEmptyDataSet
+    - EasyTransition
+    - EMAlertController
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FLAnimatedImage
+    - IQKeyboardManagerSwift
+    - JDStatusBarNotification
+    - JSONModel
+    - NVActivityIndicatorView
+    - NVPullToRefresh
+    - OneSignal
+    - Parchment
+    - Parse
+    - PullToRefresher
+    - PullUpController
+    - SDWebImage
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: c0ee801a2d107eca5f748d07932b449666d8effd
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AppBottomActionSheet: 2fe6ee60ee95e7248791e15249e7e022df239c7e
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CSStickyHeaderFlowLayout: e9bcb1762413f49d7d09e5bd0ae5efd1100116b7
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EasyTransition: 4edcdd6a8811ec493fb67a64635c3dce6c2bf482
+  EMAlertController: db945aa666b737b86b0d22c9ee464e552fc63bb8
+  FBSDKCoreKit: 3b8e6570eedb443f9fc4af196a7bf39f18e3a3d8
+  FBSDKLoginKit: 8bccb6064708ab2f4251a7fc4e3b6d8d00ad91ba
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  JDStatusBarNotification: 21b616e7432284fea6eb0ce9eadc37c8038a5544
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  NVPullToRefresh: e0473d64e3b4a51647da4fc5a558934166a3a04e
+  OneSignal: 0fb3522620d392195ed8e90e4e96717c6085df45
+  Parchment: e6c2a3a0063739382dd207e21d48fe5e81f3324a
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  PullToRefresher: 25a367871a70b1da0b28e8e7cecceb4ef04f5f56
+  PullUpController: c5b83f5f02aa2d952128b8a86b4142e446fdc2df
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+
+PODFILE CHECKSUM: 5c66d8155b06dc9091fc713fe65ecfa9155542d6
+
+COCOAPODS: 1.5.0.beta.1
